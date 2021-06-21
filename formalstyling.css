@@ -1,0 +1,37 @@
+form{
+   
+    width: 80vw;
+    margin: auto auto;
+    padding-top: 15px;
+    padding-left: 1em;
+ 
+}
+.pdetails{
+    margin-top: 1px;
+    width: 80%;
+    height: 2em;
+    border: none;
+    border-top: 1px solid antiquewhite;
+}
+#message{
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid antiquewhite;
+    border-right: 1px solid antiquewhite;
+    width: 80%;
+}
+
+#submit{
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    padding-left: 1em;
+}
+
+#message{
+    font-family: 'Architects Daughter', cursive;
+}

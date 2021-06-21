@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Equiry</title>
+        <link rel="stylesheet" href="formalStyling.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="form">   
+         
+            
+            <form action="post" enctype="multipart/form-data">
+                <h2>Enter your details:</h2>
+                <!-- First Name: <br> -->
+            <input type="text" placeholder="First Name" name="fname" autofocus required class="pdetails">
+            <br>
+            <!-- Last Name: <br> -->
+            <input type="text" placeholder="Last Name" name="lname" required class="pdetails">
+            <br>
+            <!-- <label for="email">Your email address:</label> -->
+            <input type="email" id="email" name="email" placeholder="E-mail" required class="pdetails">
+            <br>
+            <h4>Enquiry type:</h4> 
+            <input list = "enquiryType" required placeholder="Click">
+            <br>
+            <datalist id = "enquiryType" >
+            <option value="Complaint">Complaint</option>
+            <option value="Critique">Critique</option>
+            <option value="Request">Request</option>
+            <option value="General Information">General Information</option>
+            <option value="Charity Related">Charity Related</option>
+            <option value="Other">Other</option>
+        </datalist>
+        <br>
+        <textarea rows="10" cols="50" placeholder="My message. . ." id="message"></textarea>
+        <br>
+        <button type="submit" onclick="alert('Form sent')" id="submit">Send it!</button>
+        <br>
+        <br>
+        
+    </form>
+    </div>
+
+    </body>
+</html>
