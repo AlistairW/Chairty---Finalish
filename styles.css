@@ -164,20 +164,20 @@ cite{
 /* background images for filters */
 
 #clothing{
- background-image: url(Images/Clothing_filter.jpg);
+ background-image: url(Images/Clothing_filter.JPG);
  background-size: cover;
  height: 100%;
  background-repeat: no-repeat;
 }
 #furniture{
-    background-image: url(Images/Furniture\ 2.jpg);
+    background-image: url(Images/Furniture\ 2.JPG);
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
   
 }
 #miscellaneous{
-    background-image: url(Images/Miscelanious.jpg);
+    background-image: url(Images/Miscelanious.JPG);
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
